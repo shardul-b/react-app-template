@@ -1,5 +1,5 @@
-import './Stylesheets/counter.css';
-import Counter from './Components/CounterComponent';
+import './Stylesheets/someStylesheet.css';
+import SomeComponent from './Components/SomeComponent';
 
 function App() {
   /*
@@ -10,7 +10,7 @@ function App() {
    */
   return (
     <div>
-      <Counter />;
+      <SomeComponent />;
     </div>
   );
 }
