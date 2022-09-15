@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import './Stylesheets/counter.css';
+import Counter from './Components/CounterComponent';
 
 function App() {
+  /*
+      For Every New Code, Create a new file inside Components Folder and Stylesheets, 
+      then import the Component and CSS file and Insert the name below 
+      This will save your efforts of doing create-react-app everytime
+
+   */
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Counter />;
     </div>
   );
 }
